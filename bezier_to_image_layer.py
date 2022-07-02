@@ -1,3 +1,7 @@
+import keras
+from keras import backend as K 
+from keras.engine.topology import Layer
+
 class BezierToImageLayer(Layer):
   def __init__(self, n=30, w=60, length=160, alpha=0.0002, viewbox=(0,0,1.0,1.0), **kwargs):
     super(BezierToImageLayer, self).__init__(**kwargs)
