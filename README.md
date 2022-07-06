@@ -1,3 +1,3 @@
 # Bezier To Image Layer
 
-This is an implementation of layer for Keras which draws a set of bezier curves on a raster image.
+This repository provides implementation of layer forwhich draws a set of bezier curves on a raster image for both Keras and PyTorch.
