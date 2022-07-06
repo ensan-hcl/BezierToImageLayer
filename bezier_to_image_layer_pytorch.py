@@ -3,10 +3,7 @@ import torch
 
 class Bezier2Image(torch.nn.Module):
     def __init__(self, n=30, w=60, length=160, alpha=0.0002, viewbox=(0, 0, 1.0, 1.0)):
-        """
-        In the constructor we instantiate four parameters and assign them as
-        member parameters.
-        """
+
         super().__init__()
         self.n = n
         self.w = w
